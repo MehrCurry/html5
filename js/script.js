@@ -4,16 +4,8 @@
      // Create a popcorn instance by calling Popcorn("#id-of-my-video")
      var pop = Popcorn("#thevideo");
 
-     // add a footnote at 2 seconds, and remove it at 6 seconds
-     pop.footnote({
-       start: 2,
-       end: 6,
-       text: "Pop!",
-       target: "slides"
-     });
-
 	 pop.image({
-		start: 7,
+		start: 1,
 		end: 11,
 		src: "media/Abendvortrag 2011 - Komplex. oder doch nur kompliziert.001.jpg",
 		target: "slides" 

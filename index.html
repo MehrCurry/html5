@@ -2,11 +2,28 @@
 <head>
     <script src="js/popcorn-complete.js"></script>
     <script src="js/script.js"></script>
+	<link rel="stylesheet" type="text/css" href="layout.css"></link>
   </head>
 <body>
-	<video id="thevideo" width="320" height="240" src="media/Brilon 2010.webm" controls>
-	  Your browser does not support the <code>video</code> element.
-	</video>
-	<div id="slides"></div>
+	<div id="header">
+		<img src="http://www.payone.de/images/navigation/logoclaim.gif"></img>
+	</div>
+	<div id="wrapper">
+	<div id="steuerung">
+		<video id="thevideo" width="320" height="240"  controls>
+			<source src="media/Brilon 2010.mkv" type="video/ogg"/>
+			<source src="media/Brilon 2010.webm" type="video/webm"/>
+		  Your browser does not support the <code>video</code> element.
+		</video>
+	</div>
+
+	<div id="zweite_spalte">
+		<div id="slides"></div>
+	</div>
+	</div>
+	<div id="footer">
+		Footer
+	</div>	
+	
 	</body>
 </html>
